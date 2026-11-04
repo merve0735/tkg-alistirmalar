@@ -5,11 +5,16 @@
 
 import pytest
 
+<<<<<<< HEAD
 from bolum2 import otopark_ucreti, sifre_gucu, yuzde_degisim
+=======
+from bolum2 import sifre_gucu, otopark_ucreti, yuzde_degisim
+>>>>>>> upstream/main
 
 
 def test_kisa_sifre_zayif():
     assert sifre_gucu("abc") == "zayıf"
+<<<<<<< HEAD
 
 
 def test_sifre_gucu_bos_hata():
@@ -65,3 +70,5 @@ def test_yuzde_degisim_hesap():
     assert yuzde_degisim(200, 250) == pytest.approx(25.0)
     assert yuzde_degisim(200, 150) == pytest.approx(-25.0)
     assert yuzde_degisim(100, 100) == pytest.approx(0.0)
+=======
+>>>>>>> upstream/main

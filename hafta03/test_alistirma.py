@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import pytest
 from alistirma import bilet_fiyati, kargo_ucreti, ortalama
 
@@ -64,3 +65,17 @@ def test_ortalama_hesabi_ve_sinirlar():
     assert ortalama([100]) == 100.0
     assert ortalama([80, 90, 100]) == 90.0
     assert ortalama([10, 20, 20]) == pytest.approx(16.666666666666668)
+=======
+# Hafta 3: Testleri bu dosyaya SİZ yazacaksınız.
+#
+# Aşağıda örnek olarak bir test var. Yanına her fonksiyon için kendi testlerinizi ekleyin.
+# Çalıştırmak için bu klasörde:  python -m pytest -v
+
+import pytest
+
+from alistirma import kargo_ucreti, bilet_fiyati, ortalama
+
+
+def test_kargo_buyuk_sipariste_ucretsiz():
+    assert kargo_ucreti(800) == 0
+>>>>>>> upstream/main

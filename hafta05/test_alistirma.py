@@ -15,6 +15,7 @@ def test_sepet_toplami():
         {"urun": "tost", "fiyat": 60, "adet": 1},
     ]
     assert sepet_toplami(sepet) == 145
+<<<<<<< HEAD
 
 
 @pytest.mark.parametrize(
@@ -69,3 +70,4 @@ def test_en_pahali_urun_esit_fiyatli():
 
 def test_en_pahali_urun_bos_sepet():
     assert en_pahali_urun([]) is None
+    
