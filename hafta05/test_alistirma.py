@@ -15,7 +15,7 @@ def test_sepet_toplami():
         {"urun": "tost", "fiyat": 60, "adet": 1},
     ]
     assert sepet_toplami(sepet) == 145
-<<<<<<< HEAD
+
 
 
 @pytest.mark.parametrize(
